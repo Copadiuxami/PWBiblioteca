@@ -46,13 +46,13 @@ class WebRequestHandler(BaseHTTPRequestHandler):
 
 books = {
             '1':"""
-            <h1> Book 1 </h1>
+            <h1> Libro 1 </h1>
             """, 
             '2':"""
-            <h1> Book 2 </h1>
+            <h1> Libro 2 </h1>
             """, 
             '3':"""
-            <h1> Book 3 </h1>
+            <h1> Libro 3 </h1>
             """, 
         }
 
