@@ -31,6 +31,7 @@ class WebRequestHandler(BaseHTTPRequestHandler):
     <form action="/" method="get">
     	<label for="q">  Búsqueda </label>
     	<input type="text" name="q" required />
+        <input type="submit" value="Buscar" />
 	</form>
 
     <p>  {self.query_data}   </p>
